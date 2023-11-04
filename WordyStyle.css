@@ -1,0 +1,194 @@
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: black;
+    font: arial;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+}
+
+h3 {
+    text-decoration: underline white;
+    font: georgia;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    display: inline-block
+  }
+
+ .maintitle {
+    background-color: black;
+    color: white;
+    font: Georgia;
+    padding: 5px;
+  }
+
+.subtitle {
+    background-color: black;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+  }
+
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+  }
+
+ul {
+    display: flex;
+    padding-right: 30px;
+    color: white;
+
+  }
+
+uk:hover {
+    color: orange
+  }
+
+.navlinks {
+    color:white;
+    padding: 10px;
+  }
+
+  .booksmain {
+    justify-content: space-around;
+  }
+
+  .booksmainimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .reviewheader {
+    justify-content: space-around;
+  }
+
+.reviews {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid white;
+    padding: 20px;
+  }
+
+ .singreview {
+    display:block;
+    font-size: 20px;
+}
+
+.reviewauthor {
+    text-indent: 5%;
+    font-size: 14px;
+  }
+
+.mainbio {
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid white;
+    padding-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+
+.fullbio {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textbio {
+    display: block
+}
+
+.shortbio {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: grey;
+    color: black;
+}
+
+.longbio {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: grey;
+    color: black;
+}
+
+.awards {
+    border: 5px red;
+    padding-left: 230px;
+    list-style-type: none;
+}
+
+.awards ul {
+    display: inline-block;
+}
+
+.bookbody {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.book {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid orange;
+    padding: 20px;
+}
+
+.blurbheader {
+    color: orange;
+}
+
+.blurbbody {
+    font-size: 14px;
+}
